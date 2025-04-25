@@ -1,0 +1,41 @@
+/* for Main Content */
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1% 1%;
+}
+
+section {
+  direction: rtl;
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 10px;
+
+  width: 100%;
+}
+
+.card {
+  background-color: #193042;
+  /* display: flex; */
+  color: white;
+  padding: 2%;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card hr {
+    width: 100%;
+}
+.card button {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius: 20px;
+    
+}
