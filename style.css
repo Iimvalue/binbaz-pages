@@ -1,13 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
 }
 
 header {
   background-color: #193042;
   color: white;
-  height: 50vh;
+  height: 70vh;
 }
 
 .header-top {
@@ -21,13 +20,6 @@ header {
   margin-bottom: 50px;
 }
 
-.text-size-btn {
-  border: 0;
-  color: black;
-  background-color: #193042;
-  padding: 5px;
-  cursor: pointer;
-}
 .fav-and-store {
   display: flex;
   flex-direction: row;
@@ -36,10 +28,19 @@ header {
   gap: 5px;
   max-height: 30px;
 }
+
+.text-size-btn {
+    border: 0;
+    color: white;
+    background-color: #193042;
+    padding: 5px;
+    cursor: pointer;
+  }
 .fav-and-store-btn {
   display: flex;
   justify-content: center;
-  gap:4px;
+  color: white;
+  gap: 4px;
   border: 0;
   border-radius: 50px;
   align-items: center;
@@ -48,4 +49,85 @@ header {
   cursor: pointer;
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.nav-list {
+  display: flex;
+  width: 85%;
+  justify-content: center;
+  gap: 45px;
+}
 
+nav a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: white;
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: #1b7a74;
+  border-radius: 50px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  border-radius: 50px;
+  height: 20px;
+  width: 275px;
+}
+.search button {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  margin-right: -55px;
+  border: 0;
+  outline: 0;
+  width: 55px;
+  padding-right: 50%px;
+  border-radius: 20px;
+  background-color: #1b7a74;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 55%;
+}
+
+.about-us-header {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  text-align: justify;
+  width: 50%;
+}
+
+.about-us-header h3,
+p {
+  margin: 0 0;
+}
+
+.about-us-header h3 {
+  text-align: center;
+  margin-right: 10%;
+  margin-bottom: 1px;
+  width: 120px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50px;
+  background-color: #1b7a74;
+}
