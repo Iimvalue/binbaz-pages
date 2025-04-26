@@ -52,16 +52,14 @@ header {
   /* height: 30vh;
   width: 100%; */
 }
-/* .main-content-books h2 {
+.main-content-books h2 {
   font-size: 3.5rem;
   color: #193042;
-} */
+}
 
-/* .book {
+.book {
   border-radius: 40px;
-
-
-} */
+}
 
 .book img {
   width: 100%;
