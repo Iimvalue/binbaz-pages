@@ -1,4 +1,4 @@
-header {
+.Search-header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,6 +17,7 @@ header {
   outline: none;
   border: none;
   text-align: right;
+  color: white;
 }
 .search-bar input::placeholder {
   color: rgb(183, 183, 183);
@@ -57,9 +58,9 @@ header {
   color: #193042;
 }
 
-.book {
+/* .book {
   border-radius: 40px;
-}
+} */
 
 .book img {
   width: 100%;

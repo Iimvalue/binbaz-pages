@@ -161,29 +161,16 @@ section {
 }
 
 .card {
-  /* background-color: #193042;
-  color: white;
-  padding: 2%;
-  gap: 10px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 15%;
-  border-radius: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-
   background: #193042;
   color: white;
   padding: 2%;
-  flex: 1 1 200px;
   max-width: 250px;
-  min-width: 200px;
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 .card hr {
   width: 100%;
@@ -239,7 +226,6 @@ footer {
 .footer-links ul {
   list-style: none;
   padding: 2%;
-
 }
 
 .footer-links ul li a {
