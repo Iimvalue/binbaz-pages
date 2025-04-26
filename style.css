@@ -1,9 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Cairo", sans-serif;
+  font-weight: 400;
+}
+
+
+
+
 /* for Main Content */
 .main-content {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   padding: 1% 1%;
+}
+.main-content h2 {
+  font-size: 3.5rem;
+  color: #193042;
 }
 
 section {
