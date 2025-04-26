@@ -221,7 +221,6 @@ footer {
 }
 
 .footer-about {
-
   text-align: justify;
   font-size: 20px;
 }
@@ -231,17 +230,16 @@ footer {
 }
 .footer-links {
   display: flex;
-
   flex-direction: column;
   width: 100%;
-  margin: 2% 3% 2% 5%;
-  display: flex;
+  margin: 0% 4% 5% 7%;
   align-items: center;
 }
 
 .footer-links ul {
   list-style: none;
-  padding: 0;
+  padding: 2%;
+
 }
 
 .footer-links ul li a {
