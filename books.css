@@ -1,8 +1,8 @@
 header {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
 }
 
 .search-bar {
@@ -41,4 +41,9 @@ header {
 
 .search-bar button:hover {
   background-color: #155c58;
+}
+/*  */
+
+.book{
+    border-radius: 40px;
 }
