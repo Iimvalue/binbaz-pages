@@ -228,18 +228,26 @@ footer {
 
 .footer-about {
   /* text-align: right; */
-  max-width: 30vh;
-  font-size: 15px;
+  max-width: 50vh;
   text-align: right;
 }
 
-/* .footer-about p {
+.footer-about p {
   font-size: 10px;
   text-align: right;
-  padding: 2% 3%;
-} */
+  /* padding: 2% 3%; */
+}
 .footer-links {
-  /* text-align: left; */
+  display: flex;
+
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  margin: 2% 3% 2% 5%;
+  /* padding: 3% 5%; */
+  /* height: 50%; */
+  display: flex;
+  align-items: center;
 }
 
 .footer-links ul {
@@ -267,4 +275,13 @@ footer {
   /* margin-top: 2rem; */
   font-size: 0.9rem;
   color: #ccc;
+}
+
+.footer-downloads{
+  width: 10%;
+}
+
+
+.footer-downloads img {
+  width: 100%;
 }
