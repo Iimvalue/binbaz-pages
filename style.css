@@ -5,10 +5,138 @@
   margin: 0%;
   font-family: "Cairo", sans-serif;
   font-weight: 400;
+  direction: rtl;
 }
 
+header {
+  background-color: #193042;
+  color: white;
+  /* height: 70vh; */
+}
 
+.header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border-bottom: 1px solid white;
+  padding: 5px 15px;
+  margin-bottom: 50px;
+}
 
+.fav-and-store {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 5px;
+  max-height: 30px;
+}
+
+.text-size-btn {
+  border: 0;
+  color: black;
+  font-size: 15px;
+  background-color: transparent;
+  padding: 0px 5px;
+  cursor: pointer;
+}
+.fav-and-store-btn {
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 4px;
+  border: 0;
+  border-radius: 50px;
+  align-items: center;
+  width: 74px;
+  background-color: #1b7a74;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.nav-list {
+  display: flex;
+  width: 85%;
+  justify-content: center;
+  gap: 45px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: white;
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: #1b7a74;
+  border-radius: 50px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  border-radius: 50px;
+  height: 20px;
+  width: 275px;
+}
+.search button {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  margin-right: -55px;
+  border: 0;
+  outline: 0;
+  width: 55px;
+  padding-right: 50%px;
+  border-radius: 20px;
+  background-color: #1b7a74;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 55%;
+}
+
+.about-us-header {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  text-align: justify;
+  width: 50%;
+}
+
+.about-us-header h3,
+p {
+  margin: 0 0;
+}
+
+.about-us-header h3 {
+  text-align: center;
+  margin-right: 10%;
+  margin-bottom: 1px;
+  width: 120px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50px;
+  background-color: #1b7a74;
+}
 
 /* for Main Content */
 .main-content {
@@ -16,6 +144,7 @@
   flex-direction: column;
   align-items: flex-end;
   padding: 1% 1%;
+  height: 80vh;
 }
 .main-content h2 {
   font-size: 3.5rem;
@@ -23,7 +152,7 @@
 }
 
 section {
-  direction: rtl;
+  /* direction: rtl; */
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -69,4 +198,73 @@ section {
   color: white;
   transform: scale(1.05);
   box-shadow: 0 6px 14px rgba(22, 22, 23, 0.4);
+}
+
+/* 
+.footer-content{
+  background-color: #193042;
+  color: white;
+  height: 70vh;
+}
+
+.right-footer{
+  display: flex;
+  align-items: flex-start;
+  justify-content: last baseline;
+} */
+
+footer {
+  background-color: #193042;
+  color: white;
+  padding: 2rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  /* flex-wrap: wrap; */
+}
+
+.footer-about {
+  /* text-align: right; */
+  max-width: 30vh;
+  font-size: 15px;
+  text-align: right;
+}
+
+/* .footer-about p {
+  font-size: 10px;
+  text-align: right;
+  padding: 2% 3%;
+} */
+.footer-links {
+  /* text-align: left; */
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  /* margin-bottom: 10px; */
+}
+
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #50c5b7;
+}
+
+/* الحقوق */
+.footer-bottom {
+  text-align: center;
+  /* margin-top: 2rem; */
+  font-size: 0.9rem;
+  color: #ccc;
 }
