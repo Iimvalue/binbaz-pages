@@ -1,11 +1,13 @@
-main section{
+
+main .reading-card-seciton{
 display: flex;
 flex-direction: column;
 padding: 0 10vw;
 margin-bottom: 5vh;
 }
 
-main section h1{
+
+main .reading-card-seciton h1{
     font-weight: 600;
 }
 
@@ -18,7 +20,8 @@ main section h1{
     text-decoration: none;
     color: black;
 }
-.card{
+
+.reading-card{
 display: flex;
 flex-direction: column;
 padding: 0px 50px;
@@ -49,7 +52,8 @@ word-spacing: 4px;
 }
 
 
-.card h2,h3{
+
+.reading-card h2,h3{
     margin: 10px 0px;
     font-weight: 600;
 }
