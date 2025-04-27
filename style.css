@@ -86,16 +86,14 @@ nav a:hover {
   transform: scale(1.05);
 }
 
-.disabled{
+.disabled {
   color: rgba(128, 128, 128, 0.514);
-  transition: background-color 0.0s ease, transform 0.0s ease;
-
+  transition: background-color 0s ease, transform 0s ease;
 }
-.disabled:hover{
+.disabled:hover {
   background-color: transparent;
   cursor: no-drop;
   transform: scale(1);
-
 }
 
 .search {
@@ -237,7 +235,7 @@ footer {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 0% 4% 5% 7%;
+  margin: 0% 4% 0% 7%;
   align-items: center;
 }
 
@@ -264,14 +262,17 @@ footer {
 
 .footer-downloads {
   display: flex;
-  flex-wrap: wrap;
-
-  width: 5%;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-end;
+  width: 400px;
+  gap: 10px;
   text-align: center;
 }
 
 .footer-downloads img {
-  width: 100%;
+  display: flex;
+  width: 50%;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
 }
