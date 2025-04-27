@@ -86,6 +86,18 @@ nav a:hover {
   transform: scale(1.05);
 }
 
+.disabled{
+  color: rgba(128, 128, 128, 0.514);
+  transition: background-color 0.0s ease, transform 0.0s ease;
+
+}
+.disabled:hover{
+  background-color: transparent;
+  cursor: no-drop;
+  transform: scale(1);
+
+}
+
 .search {
   display: flex;
   justify-content: center;
