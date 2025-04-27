@@ -1,11 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Cairo", sans-serif;
+  font-weight: 400;
+  direction: rtl;
+}
+
 
 /* for Main Content */
 .main-content {
   display: flex;
+  background-color: whitesmoke;
   flex-direction: column;
-  align-items: flex-end;
-  padding: 1%;
-  min-height: 80vh;
+  padding: 3%;
+  min-height: 60vh;
+  text-align: justify;
 }
 .main-content h2 {
   font-size: 3.5rem;
@@ -13,19 +24,18 @@
 }
 
 section {
-  /* direction: rtl; */
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  justify-content: space-between;
   width: 100%;
-  justify-content: flex-end;
+  margin: 0px 0px 0px 0px;
 }
 
 .card {
   background: #193042;
   color: white;
   padding: 2%;
-  max-width: 250px;
+  max-width: 190px;
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -37,12 +47,12 @@ section {
   width: 100%;
 }
 .card p {
-  font-size: 1rem;
+  font-size: 0.8rem;
   padding: 2% 4%;
 }
 .card button {
   font-size: 1rem;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   background-color: white;
   border-radius: 20px;
   transition: 0.3s ease-out;

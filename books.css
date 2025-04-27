@@ -50,30 +50,28 @@
   align-items: center;
   justify-content: center;
   padding: 1% 1%;
-  /* height: 30vh;
-  width: 100%; */
+  margin-bottom: 10%;
+
 }
 .main-content-books h2 {
   font-size: 3.5rem;
   color: #193042;
 }
 
-/* .book {
-  border-radius: 40px;
-} */
 
 .book img {
-  width: 100%;
+  width: 50%;
 }
 
 .buttons {
   display: flex;
-  gap: 10px;
+  justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
-.buttons span {
-  display: flex;
-  align-items: center;
-  margin-top: 10%;
+.buttons img {
+  margin-top: 30px;
+ width: 23px;
+ cursor: pointer;
 }
