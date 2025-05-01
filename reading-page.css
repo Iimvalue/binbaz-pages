@@ -57,3 +57,54 @@ word-spacing: 4px;
     margin: 10px 0px;
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    main .reading-card-seciton {
+      padding: 0 5vw;
+    }
+  
+    .reading-card {
+      padding: 5%;
+    }
+  
+    .breadcrumbs {
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+    }
+  
+    .actions-icon {
+      flex-direction: row;
+      justify-content: flex-end;
+      margin: 10px 0;
+      gap: 15px;
+    }
+  
+    /* .header-top,
+    .nav-list,
+    .search,
+    .main-header,
+    .footer-container {
+      flex-direction: column !important;
+      align-items: flex-start !important;
+    } */
+  
+    .fav-and-store {
+      width: 100%;
+      justify-content: space-between;
+    }
+  
+    nav img {
+      max-width: 100px;
+      height: auto;
+    }
+  
+    .footer-container {
+      gap: 20px;
+      padding: 20px;
+    }
+  
+    .footer-about p {
+      font-size: 14px;
+    }
+  }
