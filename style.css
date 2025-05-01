@@ -276,3 +276,112 @@ footer {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
 }
+
+
+/* Responsiveness */
+@media screen and (max-width: 992px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .nav-list {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .main-header {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    gap: 20px;
+  }
+
+  .about-us-header {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .about-us-header h3 {
+    margin: auto;
+  }
+
+  .about-us-header p {
+    font-size: 14px;
+  }
+
+  .main-header iframe {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .card {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-links,
+  .footer-downloads {
+    margin: 0;
+    width: 100%;
+  }
+
+  .footer-about p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header-top {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .fav-and-store {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .search {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .search input {
+    width: 90%;
+  }
+
+  .search button {
+    margin-right: 0;
+    width: auto;
+    padding: 5px 15px;
+  }
+
+  .footer-about {
+    font-size: 14px;
+  }
+
+  .footer-about p {
+    font-size: 11px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+  }
+}
